@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine = [], custName){
 function nowServing(katzDeliLine){
   //return the first person in line and remove individual in line
   if (katzDeliLine.length > 1){
-    
+    return(katzDeliLine[0].pop())
   } else {
     
   }
