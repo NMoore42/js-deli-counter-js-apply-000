@@ -2,7 +2,7 @@
 
 function takeANumber(katzDeliLine, custName){
   //return welcome message including person's name and place in line (index +1)
-  return `Welcome, $(custName). You are number $(katzDeliLine.length + 1) in line.`
+  return `Welcome, {$custName}. You are number $(katzDeliLine.length + 1) in line.`
 }
 
 function nowServing(katzDeliLine){
