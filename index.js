@@ -18,5 +18,11 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine) {
   //Accepts current line and returns in string format: "The line is currently: Person1, Person 2, ect..."
+  if (katzDeliLine.length !== 0){
+    for (let i =0; i<katzDeliLine.length; i++){
+      let currentLineStatement = `The line is currently ${i+1}. ${katzDeliLine[i]},`
+      return 
+    }
+  }
   //If nobody is in line return "The line is currently empty."
 }
