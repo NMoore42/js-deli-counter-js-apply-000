@@ -1,3 +1,4 @@
+
 function takeANumber(katzDeliLine, custName){
   //return welcome message including person's name and place in line (index +1)
   
