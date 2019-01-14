@@ -22,9 +22,9 @@ function currentLine(katzDeliLine) {
     for (let i =0; i<katzDeliLine.length; i++){
       let currentLineStatement = `The line is currently ${i+1}. ${katzDeliLine[i]},`
       return currentLineStatement.slice(0, -1);
-    } else {
+    }  
+  } else {
+    //If nobody is in line return "The line is currently empty."
       return "The line is currently empty."
-    }
   }
-  //If nobody is in line return "The line is currently empty."
 }
